@@ -1,0 +1,26 @@
+{
+  "name": "commandkit-plugin-discord-player",
+  "description": "This is a CommandKit plugin that allows you to use commandkit's event system to listen to discord-player events and also registers discord-player context.",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "commonjs",
+  "keywords": [
+    "commandkit",
+    "discord-player",
+    "plugin"
+  ],
+  "author": "Twilight <hello@twlite.dev>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "commandkit": "^0.1.11-dev.20250330125518",
+    "discord-player": "^7.1.0",
+    "typescript": "^5.8.2"
+  }
+}
